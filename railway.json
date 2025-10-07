@@ -1,0 +1,16 @@
+# Railway.app Configuration for Kitchen Reporter Bot
+# This file configures Railway to run our bot 24/7 in the cloud
+
+# Railway will automatically detect this as a Python project
+# and install dependencies from requirements.txt
+
+# Environment variables (set these in Railway dashboard):
+# SLACK_APP_TOKEN=xoxb-your-slack-bot-token
+# SLACK_CHANNEL_ID=C09EBE0DEUX
+# PYTHONHTTPSVERIFY=0
+# SSL_VERIFY=false
+# GRPC_INSECURE=1
+# USE_GOOGLE_SHEETS=false
+
+# Railway will run: python cloud_bot.py
+# The bot will run continuously and execute scheduled tasks at exact IST times
